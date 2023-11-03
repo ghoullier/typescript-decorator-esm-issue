@@ -1,0 +1,14 @@
+{
+  "name": "typescript-decorator-esm-issue",
+  "version": "1.0.0",
+  "type": "module",
+  "packageManager": "pnpm@8.10.2",
+  "dependencies": {
+    "@types/node": "^20.8.10",
+    "tslib": "^2.6.2",
+    "typescript": "^5.2.2"
+  },
+  "scripts": {
+    "start": "tsc && node dist/index.js"
+  }
+}
